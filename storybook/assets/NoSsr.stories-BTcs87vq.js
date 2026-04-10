@@ -1,0 +1,6 @@
+import{n as e,o as t}from"./chunk-zsgVPwQN.js";import{Pt as n,cn as r}from"./iframe-CAjx62e_.js";var i,a,o,s=e((()=>{i=t(r(),1),a=n(),o=({children:e,fallback:t=null})=>{let[n,r]=i.useState(!1);return i.useEffect(()=>{r(!0)},[]),n?(0,a.jsx)(a.Fragment,{children:e}):(0,a.jsx)(a.Fragment,{children:t})},o.displayName=`NoSsr`,o.__docgenInfo={description:``,methods:[],displayName:`NoSsr`,props:{children:{required:!1,tsType:{name:`ReactReactNode`,raw:`React.ReactNode`},description:``},fallback:{required:!1,tsType:{name:`ReactReactNode`,raw:`React.ReactNode`},description:`Response rendered during SSR and on first load before hydration`,defaultValue:{value:`null`,computed:!1}}}}})),c,l,u,d;e((()=>{s(),c=n(),l={title:`Utilities/NoSsr`,component:o,tags:[`autodocs`]},u={args:{children:(0,c.jsx)(`div`,{children:`This content is only rendered on the client.`}),fallback:(0,c.jsx)(`div`,{children:`Loading on the server...`})}},u.parameters={...u.parameters,docs:{...u.parameters?.docs,source:{originalSource:`{
+  args: {
+    children: <div>This content is only rendered on the client.</div>,
+    fallback: <div>Loading on the server...</div>
+  }
+}`,...u.parameters?.docs?.source}}},d=[`Default`]}))();export{u as Default,d as __namedExportsOrder,l as default};

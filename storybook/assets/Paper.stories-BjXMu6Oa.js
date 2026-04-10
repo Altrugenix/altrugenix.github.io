@@ -1,0 +1,9 @@
+import{n as e,o as t}from"./chunk-zsgVPwQN.js";import{Pt as n,cn as r,i,r as a}from"./iframe-CAjx62e_.js";import{n as o,t as s}from"./dist-CWM4ALlg.js";var c,l=e((()=>{o(),c=s(`bg-surface text-surface-foreground transition-shadow duration-200`,{variants:{elevation:{0:`shadow-none`,1:`shadow-sm`,2:`shadow`,3:`shadow-md`,4:`shadow-lg`,5:`shadow-xl`,6:`shadow-2xl`},variant:{elevation:`border-transparent`,outlined:`border border-border shadow-none`},square:{true:`rounded-none`,false:`rounded-xl`}},defaultVariants:{elevation:1,variant:`elevation`,square:!1}})})),u,d,f,p=e((()=>{u=t(r(),1),i(),l(),d=n(),f=u.forwardRef(({className:e,elevation:t,variant:n,square:r,as:i=`div`,...o},s)=>(0,d.jsx)(i,{ref:s,className:a(c({elevation:t,variant:n,square:r}),e),...o})),f.displayName=`Paper`,f.__docgenInfo={description:``,methods:[],displayName:`Paper`,props:{as:{required:!1,tsType:{name:`ReactElementType`,raw:`React.ElementType`},description:`Render as a different HTML element`,defaultValue:{value:`"div"`,computed:!1}}},composes:[`VariantProps`]}})),m,h,g;e((()=>{p(),m={title:`Layout/Paper`,component:f,tags:[`autodocs`],argTypes:{elevation:{control:`number`,min:0,max:6},variant:{control:`radio`,options:[`elevation`,`outlined`]},square:{control:`boolean`}}},h={args:{elevation:3,variant:`elevation`,square:!1,className:`p-8`,children:`This is a Paper component`}},h.parameters={...h.parameters,docs:{...h.parameters?.docs,source:{originalSource:`{
+  args: {
+    elevation: 3,
+    variant: "elevation",
+    square: false,
+    className: "p-8",
+    children: "This is a Paper component"
+  }
+}`,...h.parameters?.docs?.source}}},g=[`Default`]}))();export{h as Default,g as __namedExportsOrder,m as default};
