@@ -1,0 +1,33 @@
+import{n as e,o as t}from"./chunk-zsgVPwQN.js";import{i as n,pt as r,r as i,z as a}from"./iframe-DM0JAH7r.js";var o,s,c,l=e((()=>{o=t(r(),1),n(),s=a(),c=o.forwardRef(({className:e,variant:t=`text`,width:n,height:r,style:a,...o},c)=>(0,s.jsx)(`div`,{ref:c,className:i(`animate-pulse bg-muted`,{text:`h-4 w-full rounded-md`,circular:`rounded-full`,rectangular:`rounded-none`,rounded:`rounded-lg`}[t],e),style:{width:typeof n==`number`?`${n}px`:n,height:typeof r==`number`?`${r}px`:r,...a},"aria-hidden":`true`,...o})),c.displayName=`Skeleton`,c.__docgenInfo={description:`Skeleton loading placeholder with a shimmer animation.`,methods:[],displayName:`Skeleton`,props:{variant:{required:!1,tsType:{name:`union`,raw:`"text" | "circular" | "rectangular" | "rounded"`,elements:[{name:`literal`,value:`"text"`},{name:`literal`,value:`"circular"`},{name:`literal`,value:`"rectangular"`},{name:`literal`,value:`"rounded"`}]},description:`Shape variant`,defaultValue:{value:`"text"`,computed:!1}},width:{required:!1,tsType:{name:`union`,raw:`string | number`,elements:[{name:`string`},{name:`number`}]},description:`Width — accepts any CSS value`},height:{required:!1,tsType:{name:`union`,raw:`string | number`,elements:[{name:`string`},{name:`number`}]},description:`Height — accepts any CSS value`}}}})),u,d,f,p,m,h=e((()=>{n(),l(),u=a(),d=({className:e})=>(0,u.jsxs)(`div`,{className:i(`glass flex flex-col gap-4 rounded-xl p-5 shadow-soft`,e),children:[(0,u.jsxs)(`div`,{className:`flex items-center gap-3`,children:[(0,u.jsx)(c,{variant:`circular`,width:40,height:40}),(0,u.jsxs)(`div`,{className:`flex flex-1 flex-col gap-2`,children:[(0,u.jsx)(c,{variant:`text`,width:`60%`,height:14}),(0,u.jsx)(c,{variant:`text`,width:`40%`,height:10,className:`opacity-60`})]})]}),(0,u.jsx)(c,{variant:`rectangular`,height:160,className:`w-full rounded-lg`}),(0,u.jsxs)(`div`,{className:`flex flex-col gap-2`,children:[(0,u.jsx)(c,{variant:`text`,width:`90%`,height:12}),(0,u.jsx)(c,{variant:`text`,width:`75%`,height:12})]})]}),f=({rows:e=5})=>(0,u.jsx)(`div`,{className:`flex flex-col gap-6`,children:Array.from({length:e}).map((e,t)=>(0,u.jsxs)(`div`,{className:`flex items-center gap-4`,children:[(0,u.jsx)(c,{variant:`rounded`,width:48,height:48,className:`shrink-0`}),(0,u.jsxs)(`div`,{className:`flex flex-1 flex-col gap-2`,children:[(0,u.jsx)(c,{variant:`text`,width:`40%`,height:14}),(0,u.jsx)(c,{variant:`text`,width:`70%`,height:10,className:`opacity-60`})]}),(0,u.jsx)(c,{variant:`text`,width:60,height:10,className:`shrink-0 opacity-40`})]},t))}),p=({className:e})=>(0,u.jsxs)(`div`,{className:i(`glass flex flex-col gap-3 rounded-xl p-6 shadow-soft`,e),children:[(0,u.jsx)(c,{variant:`text`,width:`45%`,height:12,className:`opacity-70`}),(0,u.jsx)(c,{variant:`text`,width:`80%`,height:32}),(0,u.jsxs)(`div`,{className:`flex items-center gap-2`,children:[(0,u.jsx)(c,{variant:`rectangular`,width:40,height:16,className:`rounded-full bg-primary/20`}),(0,u.jsx)(c,{variant:`text`,width:80,height:10,className:`opacity-50`})]})]}),m=({rows:e=5,columns:t=4})=>(0,u.jsxs)(`div`,{className:`w-full space-y-4`,children:[(0,u.jsx)(`div`,{className:`flex gap-4 border-b pb-4`,children:Array.from({length:t}).map((e,t)=>(0,u.jsx)(c,{variant:`text`,width:`15%`,height:12,className:`opacity-70`},t))}),Array.from({length:e}).map((e,n)=>(0,u.jsx)(`div`,{className:`flex gap-4 py-2`,children:Array.from({length:t}).map((e,t)=>(0,u.jsx)(c,{variant:`text`,width:`20%`,height:14},t))},n))]}),d.__docgenInfo={description:`Skeleton Card — Ideal for layout mockups and content feeds.`,methods:[],displayName:`CardSkeleton`,props:{className:{required:!1,tsType:{name:`string`},description:``}}},f.__docgenInfo={description:`Skeleton List — Represents a list of items or menu options.`,methods:[],displayName:`ListSkeleton`,props:{rows:{required:!1,tsType:{name:`number`},description:``,defaultValue:{value:`5`,computed:!1}}}},p.__docgenInfo={description:`Skeleton Metric — For dashboard counters and data points.`,methods:[],displayName:`MetricSkeleton`,props:{className:{required:!1,tsType:{name:`string`},description:``}}},m.__docgenInfo={description:`Skeleton Table — A representation of a data table loading state.`,methods:[],displayName:`TableSkeleton`,props:{rows:{required:!1,tsType:{name:`number`},description:``,defaultValue:{value:`5`,computed:!1}},columns:{required:!1,tsType:{name:`number`},description:``,defaultValue:{value:`4`,computed:!1}}}}})),g=e((()=>{l(),h()})),_,v,y,b,x,S,C;e((()=>{g(),_=a(),v={title:`Composites/Skeleton`,component:c,tags:[`autodocs`],argTypes:{variant:{control:`select`,options:[`text`,`circular`,`rectangular`,`rounded`]}}},y={args:{variant:`text`,width:`80%`}},b={args:{variant:`circular`,width:48,height:48}},x={args:{variant:`rounded`,width:`100%`,height:120}},S={render:()=>(0,_.jsxs)(`div`,{className:`w-[300px] space-y-4 rounded-lg border p-4`,children:[(0,_.jsxs)(`div`,{className:`flex items-center gap-3`,children:[(0,_.jsx)(c,{variant:`circular`,width:40,height:40}),(0,_.jsxs)(`div`,{className:`flex-1 space-y-2`,children:[(0,_.jsx)(c,{variant:`text`,width:`60%`}),(0,_.jsx)(c,{variant:`text`,width:`40%`})]})]}),(0,_.jsx)(c,{variant:`rounded`,height:160,className:`w-full`}),(0,_.jsxs)(`div`,{className:`space-y-2`,children:[(0,_.jsx)(c,{variant:`text`}),(0,_.jsx)(c,{variant:`text`,width:`80%`})]})]})},y.parameters={...y.parameters,docs:{...y.parameters?.docs,source:{originalSource:`{
+  args: {
+    variant: "text",
+    width: "80%"
+  }
+}`,...y.parameters?.docs?.source}}},b.parameters={...b.parameters,docs:{...b.parameters?.docs,source:{originalSource:`{
+  args: {
+    variant: "circular",
+    width: 48,
+    height: 48
+  }
+}`,...b.parameters?.docs?.source}}},x.parameters={...x.parameters,docs:{...x.parameters?.docs,source:{originalSource:`{
+  args: {
+    variant: "rounded",
+    width: "100%",
+    height: 120
+  }
+}`,...x.parameters?.docs?.source}}},S.parameters={...S.parameters,docs:{...S.parameters?.docs,source:{originalSource:`{
+  render: () => <div className="w-[300px] space-y-4 rounded-lg border p-4">
+      <div className="flex items-center gap-3">
+        <Skeleton variant="circular" width={40} height={40} />
+        <div className="flex-1 space-y-2">
+          <Skeleton variant="text" width="60%" />
+          <Skeleton variant="text" width="40%" />
+        </div>
+      </div>
+      <Skeleton variant="rounded" height={160} className="w-full" />
+      <div className="space-y-2">
+        <Skeleton variant="text" />
+        <Skeleton variant="text" width="80%" />
+      </div>
+    </div>
+}`,...S.parameters?.docs?.source}}},C=[`Text`,`Circular`,`Rounded`,`CardSkeleton`]}))();export{S as CardSkeleton,b as Circular,x as Rounded,y as Text,C as __namedExportsOrder,v as default};
