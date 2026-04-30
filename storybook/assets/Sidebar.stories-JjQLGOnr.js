@@ -1,0 +1,15 @@
+import{n as e,o as t}from"./chunk-jRWAZmH_.js";import{B as n,D as r,Ft as i,bt as a,ct as o,d as s,ln as c,q as l,r as u}from"./iframe-BnAwTMlV.js";import{n as d,r as f,t as p}from"./altrugenix-sidebar-BakCQSJ8.js";var m,h,g,_,v,y,b;e((()=>{f(),u(),m=t(c(),1),h=i(),g={title:`Navigation/Sidebar`,component:d,tags:[`autodocs`]},_=()=>{let[e,t]=(0,m.useState)(!1);return(0,h.jsxs)(`div`,{className:`flex h-[600px] overflow-hidden rounded-lg border`,children:[(0,h.jsxs)(d,{collapsed:e,children:[(0,h.jsxs)(`div`,{className:`flex items-center justify-between border-b p-4`,children:[!e&&(0,h.jsx)(`span`,{className:`font-bold`,children:`App Name`}),(0,h.jsx)(`button`,{onClick:()=>t(!e),className:`hover:bg-accent rounded p-1`,children:e?`»`:`«`})]}),(0,h.jsxs)(`div`,{className:`flex-1 space-y-1 p-2`,children:[(0,h.jsx)(p,{icon:(0,h.jsx)(l,{size:20}),active:!0,collapsed:e,children:`Dashboard`}),(0,h.jsx)(p,{icon:(0,h.jsx)(s,{size:20}),collapsed:e,children:`Users`}),(0,h.jsx)(p,{icon:(0,h.jsx)(n,{size:20}),collapsed:e,children:`Messages`}),(0,h.jsx)(p,{icon:(0,h.jsx)(a,{size:20}),collapsed:e,children:`Notifications`})]}),(0,h.jsxs)(`div`,{className:`space-y-1 border-t p-2`,children:[(0,h.jsx)(p,{icon:(0,h.jsx)(r,{size:20}),collapsed:e,children:`Settings`}),(0,h.jsx)(p,{icon:(0,h.jsx)(o,{size:20}),collapsed:e,children:`Support`})]})]}),(0,h.jsxs)(`div`,{className:`bg-muted/20 flex-1 p-8`,children:[(0,h.jsx)(`h1`,{className:`text-2xl font-bold`,children:`Main Content Area`}),(0,h.jsxs)(`p`,{className:`text-muted-foreground mt-4`,children:[`The sidebar is `,e?`collapsed`:`expanded`,`.`]})]})]})},v={render:()=>(0,h.jsx)(_,{})},y={args:{collapsed:!0,children:(0,h.jsxs)(`div`,{className:`flex h-full flex-col py-4`,children:[(0,h.jsx)(p,{icon:(0,h.jsx)(l,{size:20}),active:!0,collapsed:!0}),(0,h.jsx)(p,{icon:(0,h.jsx)(s,{size:20}),collapsed:!0}),(0,h.jsx)(p,{icon:(0,h.jsx)(n,{size:20}),collapsed:!0}),(0,h.jsx)(`div`,{className:`mt-auto`,children:(0,h.jsx)(p,{icon:(0,h.jsx)(r,{size:20}),collapsed:!0})})]})}},v.parameters={...v.parameters,docs:{...v.parameters?.docs,source:{originalSource:`{
+  render: () => <SidebarStory1Render />
+}`,...v.parameters?.docs?.source}}},y.parameters={...y.parameters,docs:{...y.parameters?.docs,source:{originalSource:`{
+  args: {
+    collapsed: true,
+    children: <div className="flex h-full flex-col py-4">
+        <SidebarItem icon={<LayoutDashboard size={20} />} active collapsed />
+        <SidebarItem icon={<Users size={20} />} collapsed />
+        <SidebarItem icon={<Mail size={20} />} collapsed />
+        <div className="mt-auto">
+          <SidebarItem icon={<Settings size={20} />} collapsed />
+        </div>
+      </div>
+  }
+}`,...y.parameters?.docs?.source}}},b=[`Default`,`CollapsedOnly`]}))();export{y as CollapsedOnly,v as Default,b as __namedExportsOrder,g as default};

@@ -1,1 +1,0 @@
-import{n as e,o as t}from"./chunk-zsgVPwQN.js";import{cn as n}from"./iframe-CAjx62e_.js";function r(...e){return(0,i.useCallback)(t=>{e.forEach(e=>{e&&(typeof e==`function`?e(t):e.current=t)})},e)}var i,a=e((()=>{i=t(n(),1)}));export{r as n,a as t};
