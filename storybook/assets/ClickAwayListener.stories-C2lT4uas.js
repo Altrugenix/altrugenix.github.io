@@ -1,0 +1,10 @@
+import{n as e,o as t}from"./chunk-jRWAZmH_.js";import{Ht as n,gn as r}from"./iframe-coe0kFk0.js";import{a as i,t as a}from"./src-CxQaJ0KN.js";import{d as o,t as s}from"./src-Dw9BL9DE.js";var c,l,u,d,f,p;e((()=>{s(),c=t(r(),1),a(),l=n(),u={title:`Utilities/ClickAwayListener`,component:o,tags:[`autodocs`],parameters:{docs:{description:{component:`A utility component that detects and fires a callback when a user clicks outside of its child element. Essential for closing dropdowns, modals, and popovers.`}}},argTypes:{onClickAway:{description:`Callback fired when a click happens outside the element.`,table:{category:`Events`}}}},d=()=>{let[e,t]=(0,c.useState)(!1);return(0,l.jsxs)(`div`,{className:`flex min-h-[300px] flex-col items-center gap-4 py-20`,children:[(0,l.jsx)(o,{onClickAway:()=>t(!1),children:(0,l.jsxs)(`div`,{className:`relative`,children:[(0,l.jsx)(i,{onClick:()=>t(!e),children:`Toggle Dropdown-like UI`}),e&&(0,l.jsxs)(`div`,{className:`bg-background absolute top-full z-10 mt-2 w-64 rounded-lg border p-4 shadow-xl`,children:[(0,l.jsx)(`p`,{className:`text-sm font-medium`,children:`Click anywhere outside of this box to close it!`}),(0,l.jsx)(i,{size:`sm`,variant:`outline`,className:`mt-4 w-full`,children:`Clicking inside does nothing`})]})]})}),!e&&(0,l.jsx)(`p`,{className:`text-muted-foreground text-sm italic`,children:`Dropdown is closed.`})]})},f={render:()=>(0,l.jsx)(d,{}),parameters:{docs:{description:{story:`A common use case: detecting clicks outside a custom dropdown menu.`}}}},f.parameters={...f.parameters,docs:{...f.parameters?.docs,source:{originalSource:`{
+  render: () => <DefaultDemo />,
+  parameters: {
+    docs: {
+      description: {
+        story: "A common use case: detecting clicks outside a custom dropdown menu."
+      }
+    }
+  }
+}`,...f.parameters?.docs?.source}}},p=[`Default`]}))();export{f as Default,p as __namedExportsOrder,u as default};
