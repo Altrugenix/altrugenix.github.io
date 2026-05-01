@@ -1,0 +1,5 @@
+import{n as e,o as t}from"./chunk-jRWAZmH_.js";import{Ft as n,ln as r}from"./iframe-By8sOsRq.js";import{i,n as a}from"./altrugenix-date-picker-CZbxBRV4.js";var o,s,c,l,u,d,f,p;e((()=>{a(),o=t(r(),1),s=n(),c={title:`UI/DatePicker`,component:i,tags:[`autodocs`],decorators:[e=>(0,s.jsx)(`div`,{className:`h-[500px] max-w-[400px] p-10`,children:(0,s.jsx)(e,{})})]},l=e=>{let[t,n]=(0,o.useState)(new Date);return(0,s.jsx)(i,{...e,value:t,onChange:n})},u={render:e=>(0,s.jsx)(l,{...e})},d=e=>{let[t,n]=(0,o.useState)();return(0,s.jsx)(i,{...e,value:t,onChange:n,placeholder:`Select your birthday`})},f={render:e=>(0,s.jsx)(d,{...e})},u.parameters={...u.parameters,docs:{...u.parameters?.docs,source:{originalSource:`{
+  render: args => <DefaultRender {...args} />
+}`,...u.parameters?.docs?.source}}},f.parameters={...f.parameters,docs:{...f.parameters?.docs,source:{originalSource:`{
+  render: args => <WithPlaceholderRender {...args} />
+}`,...f.parameters?.docs?.source}}},p=[`Default`,`WithPlaceholder`]}))();export{u as Default,f as WithPlaceholder,p as __namedExportsOrder,c as default};

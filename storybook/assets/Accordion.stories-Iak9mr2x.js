@@ -1,0 +1,22 @@
+import{n as e,o as t}from"./chunk-jRWAZmH_.js";import{At as n,Ft as r,Mt as i,ln as a}from"./iframe-By8sOsRq.js";var o,s,c,l,u,d,f,p,m,h,g,_,v,y=e((()=>{o=t(a(),1),i(),s=r(),c=(...e)=>e.filter((e,t,n)=>!!e&&e.trim()!==``&&n.indexOf(e)===t).join(` `).trim(),l=e=>e.replace(/([a-z0-9])([A-Z])/g,`$1-$2`).toLowerCase(),u=e=>e.replace(/^([A-Z])|[\s-_]+(\w)/g,(e,t,n)=>n?n.toUpperCase():t.toLowerCase()),d=e=>{let t=u(e);return t.charAt(0).toUpperCase()+t.slice(1)},f={xmlns:`http://www.w3.org/2000/svg`,width:24,height:24,viewBox:`0 0 24 24`,fill:`none`,stroke:`currentColor`,strokeWidth:2,strokeLinecap:`round`,strokeLinejoin:`round`},p=e=>{for(let t in e)if(t.startsWith(`aria-`)||t===`role`||t===`title`)return!0;return!1},m=(0,o.createContext)({}),h=()=>(0,o.useContext)(m),g=(0,o.forwardRef)(({color:e,size:t,strokeWidth:n,absoluteStrokeWidth:r,className:i=``,children:a,iconNode:s,...l},u)=>{let{size:d=24,strokeWidth:m=2,absoluteStrokeWidth:g=!1,color:_=`currentColor`,className:v=``}=h()??{},y=r??g?Number(n??m)*24/Number(t??d):n??m;return(0,o.createElement)(`svg`,{ref:u,...f,width:t??d??f.width,height:t??d??f.height,stroke:e??_,strokeWidth:y,className:c(`lucide`,v,i),...!a&&!p(l)&&{"aria-hidden":`true`},...l},[...s.map(([e,t])=>(0,o.createElement)(e,t)),...Array.isArray(a)?a:[a]])}),_=((e,t)=>{let n=(0,o.forwardRef)(({className:n,...r},i)=>(0,o.createElement)(g,{ref:i,iconNode:t,className:c(`lucide-${l(d(e))}`,`lucide-${e}`,n),...r}));return n.displayName=d(e),n})(`chevron-down`,[[`path`,{d:`m6 9 6 6 6-6`,key:`qrunsl`}]]),v=o.forwardRef(({className:e,items:t,type:r=`single`,defaultValue:i=[],...a},c)=>{let[l,u]=(0,o.useState)(i),d=e=>{u(r===`single`?t=>t.includes(e)?[]:[e]:t=>t.includes(e)?t.filter(t=>t!==e):[...t,e])};return(0,s.jsx)(`div`,{ref:c,className:n(`w-full`,e),...a,children:t.map(e=>{let t=l.includes(e.value);return(0,s.jsxs)(`div`,{className:`border-b`,children:[(0,s.jsxs)(`button`,{type:`button`,disabled:e.disabled,onClick:()=>d(e.value),className:n(`flex w-full items-center justify-between py-4 text-left text-sm font-medium transition-all hover:underline`,e.disabled&&`cursor-not-allowed opacity-50`),"aria-expanded":t,children:[e.trigger,(0,s.jsx)(_,{className:n(`text-muted-foreground h-4 w-4 shrink-0 transition-transform duration-200`,t&&`rotate-180`)})]}),(0,s.jsx)(`div`,{className:n(`overflow-hidden transition-all duration-200`,t?`max-h-96 pb-4`:`max-h-0`),children:(0,s.jsx)(`div`,{className:`text-muted-foreground text-sm`,children:e.content})})]},e.value)})})}),v.displayName=`Accordion`,v.__docgenInfo={description:``,methods:[],displayName:`Accordion`,props:{type:{defaultValue:{value:`"single"`,computed:!1},required:!1},defaultValue:{defaultValue:{value:`[]`,computed:!1},required:!1}}}})),b,x,S,C,w,T;e((()=>{y(),b={title:`Data Display/Accordion`,component:v,tags:[`autodocs`],argTypes:{type:{control:`select`,options:[`single`,`multiple`]}}},x=[{value:`1`,trigger:`Is it accessible?`,content:`Yes. It adheres to the WAI-ARIA design pattern.`},{value:`2`,trigger:`Is it styled?`,content:`Yes. It comes with default styles that match the Altrugenix design system.`},{value:`3`,trigger:`Is it animated?`,content:`Yes. It uses CSS transitions for smooth expand and collapse animations.`}],S={args:{items:x,type:`single`}},C={args:{items:x,type:`multiple`,defaultValue:[`1`]}},w={args:{items:[...x,{value:`4`,trigger:`Can I disable items?`,content:`This should not be visible.`,disabled:!0}],type:`single`}},S.parameters={...S.parameters,docs:{...S.parameters?.docs,source:{originalSource:`{
+  args: {
+    items,
+    type: "single"
+  }
+}`,...S.parameters?.docs?.source}}},C.parameters={...C.parameters,docs:{...C.parameters?.docs,source:{originalSource:`{
+  args: {
+    items,
+    type: "multiple",
+    defaultValue: ["1"]
+  }
+}`,...C.parameters?.docs?.source}}},w.parameters={...w.parameters,docs:{...w.parameters?.docs,source:{originalSource:`{
+  args: {
+    items: [...items, {
+      value: "4",
+      trigger: "Can I disable items?",
+      content: "This should not be visible.",
+      disabled: true
+    }],
+    type: "single"
+  }
+}`,...w.parameters?.docs?.source}}},T=[`Single`,`Multiple`,`WithDisabled`]}))();export{C as Multiple,S as Single,w as WithDisabled,T as __namedExportsOrder,b as default};

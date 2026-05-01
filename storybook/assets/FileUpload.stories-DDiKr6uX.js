@@ -1,0 +1,18 @@
+import{n as e,o as t}from"./chunk-jRWAZmH_.js";import{$ as n,At as r,Ft as i,Mt as a,X as o,ln as s,p as c,r as l,s as u}from"./iframe-By8sOsRq.js";import{r as d,t as f}from"./altrugenix-button-BIia6M8K.js";import{n as p,t as m}from"./altrugenix-progress-bar-DuW83Jb6.js";var h,g,_,v=e((()=>{h=t(s(),1),a(),l(),d(),m(),g=i(),_=({onFilesSelected:e,multiple:t=!1,maxSize:i=10,accept:a,className:s})=>{let[l,d]=(0,h.useState)([]),[m,_]=(0,h.useState)(!1),v=(0,h.useRef)(null),y=(0,h.useCallback)(n=>{if(!n)return;let r=Array.from(n).filter(e=>!(e.size>i*1024*1024)),a=r.map(e=>({file:e,status:`completed`,progress:100}));d(e=>t?[...e,...a]:a),e?.(r)},[t,i,e]),b=e=>{e.preventDefault(),_(!0)},x=()=>{_(!1)},S=e=>{e.preventDefault(),_(!1),y(e.dataTransfer.files)},C=e=>{d(t=>t.filter((t,n)=>n!==e))},w=e=>e.type.startsWith(`image/`);return(0,g.jsxs)(`div`,{className:r(`space-y-4`,s),children:[(0,g.jsxs)(`div`,{onDragOver:b,onDragLeave:x,onDrop:S,onClick:()=>v.current?.click(),className:r(`relative flex cursor-pointer flex-col items-center justify-center gap-3 rounded-xl border-2 border-dashed p-8 transition-all`,m?`border-primary bg-primary/5 scale-[0.99]`:`border-muted-foreground/20 hover:border-primary/50 hover:bg-muted/50`),children:[(0,g.jsx)(`input`,{ref:v,type:`file`,className:`hidden`,multiple:t,accept:a,onChange:e=>y(e.target.files)}),(0,g.jsx)(`div`,{className:`bg-primary/10 rounded-full p-4`,children:(0,g.jsx)(c,{className:`text-primary h-6 w-6`})}),(0,g.jsxs)(`div`,{className:`text-center`,children:[(0,g.jsx)(`p`,{className:`font-semibold`,children:`Click or drag to upload`}),(0,g.jsxs)(`p`,{className:`text-muted-foreground mt-1 text-sm`,children:[`Maximum file size `,i,`MB`]})]})]}),l.length>0&&(0,g.jsx)(`div`,{className:`grid gap-4`,children:l.map((e,t)=>(0,g.jsxs)(`div`,{className:`bg-card flex items-center gap-4 rounded-lg border p-3`,children:[(0,g.jsx)(`div`,{className:`bg-muted shrink-0 rounded-md p-2`,children:w(e.file)?(0,g.jsx)(o,{className:`h-5 w-5 text-sky-500`}):(0,g.jsx)(n,{className:`text-primary h-5 w-5`})}),(0,g.jsxs)(`div`,{className:`min-w-0 flex-1`,children:[(0,g.jsx)(`p`,{className:`truncate text-sm font-medium`,children:e.file.name}),(0,g.jsxs)(`p`,{className:`text-muted-foreground text-xs`,children:[(e.file.size/1024/1024).toFixed(2),` MB`]}),e.status===`uploading`&&(0,g.jsx)(p,{value:e.progress,size:`sm`,className:`mt-2`})]}),(0,g.jsx)(f,{variant:`ghost`,size:`icon`,className:`hover:text-destructive h-8 w-8`,onClick:()=>C(t),children:(0,g.jsx)(u,{className:`h-4 w-4`})})]},t))})]})}})),y,b,x,S,C,w,T;e((()=>{v(),y=i(),b={title:`UI/FileUpload`,component:_,tags:[`autodocs`],decorators:[e=>(0,y.jsx)(`div`,{className:`max-w-[500px] p-6`,children:(0,y.jsx)(e,{})})]},x={args:{multiple:!0}},S={args:{multiple:!1}},C={args:{accept:`image/*`,multiple:!0}},w={args:{maxSize:1}},x.parameters={...x.parameters,docs:{...x.parameters?.docs,source:{originalSource:`{
+  args: {
+    multiple: true
+  }
+}`,...x.parameters?.docs?.source}}},S.parameters={...S.parameters,docs:{...S.parameters?.docs,source:{originalSource:`{
+  args: {
+    multiple: false
+  }
+}`,...S.parameters?.docs?.source}}},C.parameters={...C.parameters,docs:{...C.parameters?.docs,source:{originalSource:`{
+  args: {
+    accept: "image/*",
+    multiple: true
+  }
+}`,...C.parameters?.docs?.source}}},w.parameters={...w.parameters,docs:{...w.parameters?.docs,source:{originalSource:`{
+  args: {
+    maxSize: 1 // 1MB
+  }
+}`,...w.parameters?.docs?.source}}},T=[`Default`,`SingleFile`,`ImageOnly`,`SmallLimit`]}))();export{x as Default,C as ImageOnly,S as SingleFile,w as SmallLimit,T as __namedExportsOrder,b as default};

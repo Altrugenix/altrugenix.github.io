@@ -1,0 +1,22 @@
+import{n as e,o as t}from"./chunk-jRWAZmH_.js";import{At as n,Et as r,Ft as i,Mt as a,Ot as o,kt as s,ln as c,mt as l,pt as u,r as d}from"./iframe-By8sOsRq.js";import{r as f,t as p}from"./altrugenix-button-BIia6M8K.js";var m,h,g,_=e((()=>{m=t(c(),1),r(),d(),a(),f(),h=i(),g=({items:e,autoPlayInterval:t=5e3,showArrows:r=!0,showDots:i=!0,className:a,itemClassName:c})=>{let[d,f]=(0,m.useState)(0),[g,_]=(0,m.useState)(0),v=(0,m.useCallback)(()=>{e.length<=1||(_(1),f(t=>(t+1)%e.length))},[e.length]),y=(0,m.useCallback)(()=>{e.length<=1||(_(-1),f(t=>(t-1+e.length)%e.length))},[e.length]);return(0,m.useEffect)(()=>{if(t<=0||e.length<=1)return;let n=setInterval(v,t);return()=>clearInterval(n)},[v,t,e.length]),!e||e.length===0?null:(0,h.jsxs)(`div`,{className:n(`group relative h-full w-full overflow-hidden rounded-xl`,a),children:[(0,h.jsx)(s,{initial:!1,custom:g,children:(0,h.jsx)(o.div,{custom:g,variants:{enter:e=>({x:e>0?`100%`:`-100%`,opacity:0}),center:{zIndex:1,x:0,opacity:1},exit:e=>({zIndex:0,x:e<0?`100%`:`-100%`,opacity:0})},initial:`enter`,animate:`center`,exit:`exit`,transition:{x:{type:`spring`,stiffness:300,damping:30},opacity:{duration:.2}},className:n(`absolute flex h-full w-full items-center justify-center`,c),children:e[d]},d)}),r&&e.length>1&&(0,h.jsxs)(h.Fragment,{children:[(0,h.jsx)(p,{variant:`outline`,size:`icon`,className:`absolute top-1/2 left-4 z-10 -translate-y-1/2 scale-90 rounded-full border-white/20 bg-black/20 text-white opacity-0 backdrop-blur-md transition-all group-hover:opacity-100 hover:scale-100 hover:bg-black/40 dark:bg-white/10 dark:hover:bg-white/20`,onClick:e=>{e.stopPropagation(),y()},"aria-label":`Previous slide`,children:(0,h.jsx)(l,{className:`h-6 w-6`})}),(0,h.jsx)(p,{variant:`outline`,size:`icon`,className:`absolute top-1/2 right-4 z-10 -translate-y-1/2 scale-90 rounded-full border-white/20 bg-black/20 text-white opacity-0 backdrop-blur-md transition-all group-hover:opacity-100 hover:scale-100 hover:bg-black/40 dark:bg-white/10 dark:hover:bg-white/20`,onClick:e=>{e.stopPropagation(),v()},"aria-label":`Next slide`,children:(0,h.jsx)(u,{className:`h-6 w-6`})})]}),i&&e.length>1&&(0,h.jsx)(`div`,{className:`absolute bottom-6 left-1/2 z-10 flex -translate-x-1/2 gap-2`,children:e.map((e,t)=>(0,h.jsx)(`button`,{className:n(`h-2 w-2 rounded-full transition-all duration-300`,t===d?`shadow-glow w-6 bg-white`:`bg-white/40 hover:bg-white/60`),onClick:e=>{e.stopPropagation(),_(t>d?1:-1),f(t)},"aria-label":`Go to slide ${t+1}`},t))})]})}})),v,y,b,x,S,C,w,T,E;e((()=>{_(),v=i(),y={title:`UI/Carousel`,component:g,tags:[`autodocs`],decorators:[e=>(0,v.jsx)(`div`,{className:`bg-muted/20 h-[400px] w-full max-w-3xl overflow-hidden rounded-2xl border`,children:(0,v.jsx)(e,{})})]},b=({color:e,text:t})=>(0,v.jsx)(`div`,{className:`flex h-full w-full items-center justify-center text-4xl font-bold text-white ${e}`,children:t}),x=[(0,v.jsx)(b,{color:`bg-gradient-to-br from-indigo-500 to-purple-600`,text:`Slide 1`},`1`),(0,v.jsx)(b,{color:`bg-gradient-to-br from-rose-500 to-orange-500`,text:`Slide 2`},`2`),(0,v.jsx)(b,{color:`bg-gradient-to-br from-emerald-500 to-teal-600`,text:`Slide 3`},`3`),(0,v.jsx)(b,{color:`bg-gradient-to-br from-amber-400 to-yellow-600`,text:`Slide 4`},`4`)],S={args:{items:x}},C={args:{items:x,autoPlayInterval:2e3}},w={args:{items:x,showDots:!1,autoPlayInterval:0}},T={args:{items:x,showArrows:!1,autoPlayInterval:0}},S.parameters={...S.parameters,docs:{...S.parameters?.docs,source:{originalSource:`{
+  args: {
+    items: MOCK_ITEMS
+  }
+}`,...S.parameters?.docs?.source}}},C.parameters={...C.parameters,docs:{...C.parameters?.docs,source:{originalSource:`{
+  args: {
+    items: MOCK_ITEMS,
+    autoPlayInterval: 2000
+  }
+}`,...C.parameters?.docs?.source}}},w.parameters={...w.parameters,docs:{...w.parameters?.docs,source:{originalSource:`{
+  args: {
+    items: MOCK_ITEMS,
+    showDots: false,
+    autoPlayInterval: 0
+  }
+}`,...w.parameters?.docs?.source}}},T.parameters={...T.parameters,docs:{...T.parameters?.docs,source:{originalSource:`{
+  args: {
+    items: MOCK_ITEMS,
+    showArrows: false,
+    autoPlayInterval: 0
+  }
+}`,...T.parameters?.docs?.source}}},E=[`Default`,`FastAutoPlay`,`NavigationOnly`,`DotsOnly`]}))();export{S as Default,T as DotsOnly,C as FastAutoPlay,w as NavigationOnly,E as __namedExportsOrder,y as default};
