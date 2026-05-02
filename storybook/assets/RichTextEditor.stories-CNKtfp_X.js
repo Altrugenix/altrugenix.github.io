@@ -1,0 +1,29 @@
+import{n as e,o as t}from"./chunk-jRWAZmH_.js";import{G as n,Ht as r,J as i,Lt as a,S as o,Tt as s,W as c,b as l,gn as u,h as d,r as f,x as p,zt as m}from"./iframe-zfMobaDd.js";import{a as h,t as g}from"./src-DjwHjl2X.js";var _,v,y,b=e((()=>{_=t(u(),1),a(),f(),g(),v=r(),y=({initialValue:e=``,onChange:t,placeholder:r=`Start writing...`,className:a})=>{let[u,f]=(0,_.useState)(e),g=(0,_.useRef)(null);(0,_.useEffect)(()=>{g.current&&g.current.innerHTML!==e&&(g.current.innerHTML=e)},[e]);let y=(e,n=void 0)=>{if(document.execCommand(e,!1,n),g.current){let e=g.current.innerHTML;f(e),t?.(e)}};return(0,v.jsxs)(`div`,{className:m(`bg-card overflow-hidden rounded-xl border`,a),children:[(0,v.jsxs)(`div`,{className:`bg-muted/30 flex flex-wrap gap-1 border-b p-1`,children:[(0,v.jsx)(h,{variant:`ghost`,size:`icon`,className:`h-8 w-8`,onClick:()=>y(`bold`),children:(0,v.jsx)(s,{className:`h-4 w-4`})}),(0,v.jsx)(h,{variant:`ghost`,size:`icon`,className:`h-8 w-8`,onClick:()=>y(`italic`),children:(0,v.jsx)(i,{className:`h-4 w-4`})}),(0,v.jsx)(h,{variant:`ghost`,size:`icon`,className:`h-8 w-8`,onClick:()=>y(`underline`),children:(0,v.jsx)(d,{className:`h-4 w-4`})}),(0,v.jsx)(`div`,{className:`bg-border mx-1 h-4 w-[1px] self-center`}),(0,v.jsx)(h,{variant:`ghost`,size:`icon`,className:`h-8 w-8`,onClick:()=>y(`insertUnorderedList`),children:(0,v.jsx)(c,{className:`h-4 w-4`})}),(0,v.jsx)(h,{variant:`ghost`,size:`icon`,className:`h-8 w-8`,onClick:()=>y(`insertOrderedList`),children:(0,v.jsx)(n,{className:`h-4 w-4`})}),(0,v.jsx)(`div`,{className:`bg-border mx-1 h-4 w-[1px] self-center`}),(0,v.jsx)(h,{variant:`ghost`,size:`icon`,className:`h-8 w-8`,onClick:()=>y(`justifyLeft`),children:(0,v.jsx)(l,{className:`h-4 w-4`})}),(0,v.jsx)(h,{variant:`ghost`,size:`icon`,className:`h-8 w-8`,onClick:()=>y(`justifyCenter`),children:(0,v.jsx)(o,{className:`h-4 w-4`})}),(0,v.jsx)(h,{variant:`ghost`,size:`icon`,className:`h-8 w-8`,onClick:()=>y(`justifyRight`),children:(0,v.jsx)(p,{className:`h-4 w-4`})})]}),(0,v.jsx)(`div`,{ref:g,role:`textbox`,contentEditable:!0,onInput:()=>{if(g.current){let e=g.current.innerHTML;f(e),t?.(e)}},"data-placeholder":r,className:m(`prose prose-sm dark:prose-invert min-h-[150px] max-w-none p-4 text-sm leading-relaxed outline-none`,(u===``||u===`<br>`)&&`before:text-muted-foreground before:pointer-events-none before:content-[attr(data-placeholder)]`)})]})},y.__docgenInfo={description:``,methods:[],displayName:`RichTextEditor`,props:{initialValue:{required:!1,tsType:{name:`string`},description:``,defaultValue:{value:`""`,computed:!1}},onChange:{required:!1,tsType:{name:`signature`,type:`function`,raw:`(html: string) => void`,signature:{arguments:[{type:{name:`string`},name:`html`}],return:{name:`void`}}},description:``},placeholder:{required:!1,tsType:{name:`string`},description:``,defaultValue:{value:`"Start writing..."`,computed:!1}},className:{required:!1,tsType:{name:`string`},description:``}}}})),x=e((()=>{b()})),S,C,w,T,E,D,O,k,A;e((()=>{x(),S=t(u(),1),C=r(),w={title:`Forms/RichTextEditor`,component:y,tags:[`autodocs`],parameters:{docs:{description:{component:"A WYSIWYG rich text editor with standard formatting controls (bold, italic, lists, etc). Uses a native `contenteditable` element under the hood."}}},argTypes:{initialValue:{description:`Initial HTML content.`,table:{category:`Data`}},onChange:{description:`Callback triggered with raw HTML when content changes.`,table:{category:`Events`}},placeholder:{description:`Text shown when the editor is empty.`,table:{category:`Content`}}}},T=()=>{let[e,t]=(0,S.useState)(``);return(0,C.jsxs)(`div`,{className:`max-w-2xl space-y-4`,children:[(0,C.jsx)(y,{onChange:t}),(0,C.jsx)(`div`,{className:`bg-muted/30 text-muted-foreground rounded-lg p-4 font-mono text-xs break-all`,children:e||`HTML Output will appear here...`})]})},E={render:()=>(0,C.jsx)(T,{})},D=()=>{let[e,t]=(0,S.useState)(`<p>Hello <b>World</b>!</p><ul><li>One</li><li>Two</li></ul>`);return(0,C.jsx)(`div`,{className:`max-w-2xl`,children:(0,C.jsx)(y,{initialValue:e,onChange:t})})},O={render:()=>(0,C.jsx)(D,{}),parameters:{docs:{description:{story:`Editor initialized with HTML content.`}}}},k={render:()=>(0,C.jsxs)(`div`,{className:`max-w-xl space-y-3 rounded-xl border p-4 shadow-sm`,children:[(0,C.jsx)(`h3`,{className:`font-semibold`,children:`Leave a comment`}),(0,C.jsx)(y,{placeholder:`What are your thoughts?`}),(0,C.jsx)(`div`,{className:`flex justify-end`,children:(0,C.jsx)(`button`,{className:`bg-primary text-primary-foreground rounded-md px-4 py-2 text-sm font-medium`,children:`Post Comment`})})]}),parameters:{docs:{description:{story:`A real-world comment box composition.`}}}},E.parameters={...E.parameters,docs:{...E.parameters?.docs,source:{originalSource:`{
+  render: () => <DefaultDemo />
+}`,...E.parameters?.docs?.source}}},O.parameters={...O.parameters,docs:{...O.parameters?.docs,source:{originalSource:`{
+  render: () => <PreFilledDemo />,
+  parameters: {
+    docs: {
+      description: {
+        story: "Editor initialized with HTML content."
+      }
+    }
+  }
+}`,...O.parameters?.docs?.source}}},k.parameters={...k.parameters,docs:{...k.parameters?.docs,source:{originalSource:`{
+  render: () => <div className="max-w-xl space-y-3 rounded-xl border p-4 shadow-sm">
+      <h3 className="font-semibold">Leave a comment</h3>
+      <RichTextEditor placeholder="What are your thoughts?" />
+      <div className="flex justify-end">
+        <button className="bg-primary text-primary-foreground rounded-md px-4 py-2 text-sm font-medium">
+          Post Comment
+        </button>
+      </div>
+    </div>,
+  parameters: {
+    docs: {
+      description: {
+        story: "A real-world comment box composition."
+      }
+    }
+  }
+}`,...k.parameters?.docs?.source}}},A=[`Default`,`PreFilled`,`CommentBox`]}))();export{k as CommentBox,E as Default,O as PreFilled,A as __namedExportsOrder,w as default};

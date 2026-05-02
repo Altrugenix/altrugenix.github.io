@@ -1,0 +1,34 @@
+import{n as e,o as t}from"./chunk-jRWAZmH_.js";import{Ft as n,Ht as r,It as i,Lt as a,Nt as o,c as s,gn as c,r as l,zt as u}from"./iframe-zfMobaDd.js";import{a as d,t as f}from"./src-DjwHjl2X.js";var p,m,h,g,_,v=e((()=>{p=t(c(),1),o(),l(),a(),f(),m=r(),h={"bottom-left":`bottom-4 left-4`,"bottom-center":`bottom-4 left-1/2 -translate-x-1/2`,"bottom-right":`bottom-4 right-4`,"top-left":`top-4 left-4`,"top-center":`top-4 left-1/2 -translate-x-1/2`,"top-right":`top-4 right-4`},g={default:`bg-background border border-border text-foreground`,inverted:`bg-foreground text-background`,error:`bg-destructive text-destructive-foreground`,success:`bg-success text-success-foreground`},_=({open:e,message:t,actionLabel:r,onAction:a,onClose:o,autoHideDuration:c,position:l=`bottom-center`,variant:f=`inverted`,className:_,...v})=>(p.useEffect(()=>{if(e&&c&&o){let e=setTimeout(o,c);return()=>clearTimeout(e)}},[e,c,o]),(0,m.jsx)(i,{children:e&&(0,m.jsxs)(n.div,{initial:{opacity:0,scale:.9,y:l.startsWith(`bottom`)?20:-20},animate:{opacity:1,scale:1,y:0},exit:{opacity:0,scale:.9,y:l.startsWith(`bottom`)?20:-20},className:u(`fixed z-[9999] flex max-w-[500px] min-w-[320px] items-center justify-between gap-4 rounded-lg px-4 py-3 shadow-lg`,h[l],g[f],_),...v,children:[(0,m.jsx)(`span`,{className:`text-sm font-medium`,children:t}),(0,m.jsxs)(`div`,{className:`flex items-center gap-1`,children:[r&&(0,m.jsx)(d,{variant:`ghost`,size:`sm`,onClick:a,className:u(`h-8 px-2 text-xs font-bold tracking-wider uppercase`,f===`inverted`?`text-background hover:bg-background/10`:`text-primary hover:bg-primary/10`),children:r}),o&&(0,m.jsx)(`button`,{onClick:o,className:u(`rounded-full p-1 transition-opacity hover:opacity-100`,f===`inverted`?`text-background opacity-70`:`text-foreground opacity-50`),"aria-label":`Close`,children:(0,m.jsx)(s,{className:`h-4 w-4`})})]})]})})),_.displayName=`Snackbar`,_.__docgenInfo={description:`A specialized "Toast" variant for bottom/top persistent notifications.
+Inspired by MUI and Joy UI.`,methods:[],displayName:`Snackbar`,props:{open:{required:!0,tsType:{name:`boolean`},description:`Whether the snackbar is visible`},message:{required:!0,tsType:{name:`string`},description:`Message to display`},actionLabel:{required:!1,tsType:{name:`string`},description:`Action button text`},onAction:{required:!1,tsType:{name:`signature`,type:`function`,raw:`() => void`,signature:{arguments:[],return:{name:`void`}}},description:`Callback for action button click`},onClose:{required:!1,tsType:{name:`signature`,type:`function`,raw:`() => void`,signature:{arguments:[],return:{name:`void`}}},description:`Callback for close button click`},autoHideDuration:{required:!1,tsType:{name:`number`},description:`Duration in ms before auto-closing (optional)`},position:{required:!1,tsType:{name:`union`,raw:`| "bottom-left"
+| "bottom-center"
+| "bottom-right"
+| "top-left"
+| "top-center"
+| "top-right"`,elements:[{name:`literal`,value:`"bottom-left"`},{name:`literal`,value:`"bottom-center"`},{name:`literal`,value:`"bottom-right"`},{name:`literal`,value:`"top-left"`},{name:`literal`,value:`"top-center"`},{name:`literal`,value:`"top-right"`}]},description:`Anchor position`,defaultValue:{value:`"bottom-center"`,computed:!1}},variant:{required:!1,tsType:{name:`union`,raw:`"default" | "inverted" | "error" | "success"`,elements:[{name:`literal`,value:`"default"`},{name:`literal`,value:`"inverted"`},{name:`literal`,value:`"error"`},{name:`literal`,value:`"success"`}]},description:`Visual variant`,defaultValue:{value:`"inverted"`,computed:!1}}},composes:[`Omit`]}})),y=e((()=>{v()})),b,x,S,C,w,T,E,D,O,k;e((()=>{y(),f(),b=t(c(),1),x=r(),S={title:`Feedback/Snackbar`,component:_,tags:[`autodocs`],parameters:{docs:{description:{component:`A brief notification that appears at the bottom of the screen. Supports action buttons, close buttons, and auto-dismiss with configurable duration. Animated with Framer Motion.`}}},argTypes:{open:{description:`Controls the visibility of the snackbar.`,table:{category:`State`}},message:{description:`The message text to display.`,table:{category:`Content`}},actionLabel:{description:`Optional action button label.`,table:{category:`Content`}},onAction:{description:`Callback triggered when the action button is clicked.`,table:{category:`Events`}},onClose:{description:`Callback triggered on dismiss.`,table:{category:`Events`}},autoHideDuration:{control:`number`,description:`Auto-dismiss delay in milliseconds.`,table:{category:`Behavior`}}}},C=()=>{let[e,t]=(0,b.useState)(!1);return(0,x.jsxs)(x.Fragment,{children:[(0,x.jsx)(d,{onClick:()=>t(!0),children:`Show Snackbar`}),(0,x.jsx)(_,{open:e,message:`Your changes have been saved.`,onClose:()=>t(!1),autoHideDuration:3e3})]})},w={render:()=>(0,x.jsx)(C,{}),parameters:{docs:{description:{story:`A basic snackbar that auto-dismisses after 3 seconds.`}}}},T=()=>{let[e,t]=(0,b.useState)(!1);return(0,x.jsxs)(x.Fragment,{children:[(0,x.jsx)(d,{variant:`destructive`,onClick:()=>t(!0),children:`Delete Item`}),(0,x.jsx)(_,{open:e,message:`Item deleted successfully.`,actionLabel:`Undo`,onAction:()=>{t(!1)},onClose:()=>t(!1),autoHideDuration:5e3})]})},E={render:()=>(0,x.jsx)(T,{}),parameters:{docs:{description:{story:`A snackbar with an Undo action button — a common pattern for destructive actions.`}}}},D=()=>{let[e,t]=(0,b.useState)(!1);return(0,x.jsxs)(x.Fragment,{children:[(0,x.jsx)(d,{variant:`outline`,onClick:()=>t(!0),children:`Show Persistent Snackbar`}),(0,x.jsx)(_,{open:e,message:`No internet connection detected.`,onClose:()=>t(!1)})]})},O={render:()=>(0,x.jsx)(D,{}),parameters:{docs:{description:{story:"Without `autoHideDuration`, the snackbar stays visible until explicitly dismissed."}}}},w.parameters={...w.parameters,docs:{...w.parameters?.docs,source:{originalSource:`{
+  render: () => <BasicDemo />,
+  parameters: {
+    docs: {
+      description: {
+        story: "A basic snackbar that auto-dismisses after 3 seconds."
+      }
+    }
+  }
+}`,...w.parameters?.docs?.source}}},E.parameters={...E.parameters,docs:{...E.parameters?.docs,source:{originalSource:`{
+  render: () => <WithActionDemo />,
+  parameters: {
+    docs: {
+      description: {
+        story: "A snackbar with an Undo action button — a common pattern for destructive actions."
+      }
+    }
+  }
+}`,...E.parameters?.docs?.source}}},O.parameters={...O.parameters,docs:{...O.parameters?.docs,source:{originalSource:`{
+  render: () => <PersistentDemo />,
+  parameters: {
+    docs: {
+      description: {
+        story: "Without \`autoHideDuration\`, the snackbar stays visible until explicitly dismissed."
+      }
+    }
+  }
+}`,...O.parameters?.docs?.source}}},k=[`Default`,`WithAction`,`Persistent`]}))();export{w as Default,O as Persistent,E as WithAction,k as __namedExportsOrder,S as default};

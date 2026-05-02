@@ -1,0 +1,10 @@
+import{n as e,o as t}from"./chunk-jRWAZmH_.js";import{Ht as n,gn as r}from"./iframe-zfMobaDd.js";import{a as i,t as a}from"./src-DjwHjl2X.js";import{f as o,t as s}from"./src-BRbcNIVu.js";var c,l,u,d,f,p;e((()=>{s(),c=t(r(),1),a(),l=n(),u={title:`Utilities/Portal`,component:o,tags:[`autodocs`],parameters:{docs:{description:{component:"A utility component that teleports its children to `document.body` (or another target). Vital for modals, tooltips, and popovers to escape container stacking contexts (`overflow: hidden` or `z-index` issues)."}}},argTypes:{container:{description:`Optional custom DOM node to portal into. Defaults to document.body.`,table:{category:`Configuration`}}}},d=()=>{let[e,t]=(0,c.useState)(!1);return(0,l.jsxs)(`div`,{className:`bg-muted/20 relative max-w-md overflow-hidden rounded-xl border p-10`,children:[(0,l.jsxs)(`p`,{className:`mb-4 text-sm`,children:[`This container has `,(0,l.jsx)(`code`,{children:`overflow: hidden`}),`. If the tooltip wasn't portaled, it would be cut off by the container edges. Click the button to see the portal escape the container.`]}),(0,l.jsx)(i,{onClick:()=>t(!e),children:e?`Hide Portaled Element`:`Show Portaled Element`}),(0,l.jsx)(o,{children:e&&(0,l.jsx)(`div`,{className:`bg-primary text-primary-foreground animate-in slide-in-from-top-10 fixed top-20 left-1/2 z-[100] -translate-x-1/2 rounded-full px-6 py-4 font-bold shadow-2xl`,children:`I am rendered directly inside document.body!`})})]})},f={render:()=>(0,l.jsx)(d,{}),parameters:{docs:{description:{story:"A demonstration of an element breaking out of an `overflow: hidden` parent using a React Portal."}}}},f.parameters={...f.parameters,docs:{...f.parameters?.docs,source:{originalSource:`{
+  render: () => <DefaultDemo />,
+  parameters: {
+    docs: {
+      description: {
+        story: "A demonstration of an element breaking out of an \`overflow: hidden\` parent using a React Portal."
+      }
+    }
+  }
+}`,...f.parameters?.docs?.source}}},p=[`Default`]}))();export{f as Default,p as __namedExportsOrder,u as default};
